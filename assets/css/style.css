@@ -13,6 +13,9 @@ li{
 #logo{
     width: 130px;
     margin-right: 620px;
+    position: fixed;
+    top: 0.5%;
+    left:2%;
 }
 
 nav {
@@ -52,8 +55,10 @@ nav a{
 
 nav a:hover{
     color: #0074b9;
+    border-right:solid;
     border-color: #ffffff;
     border-radius: 20%;
+    
 }
 
 #section-sobre{
