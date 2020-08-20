@@ -11,21 +11,21 @@
 <body>
 
     <!--MENU DE NAVEGAÇÃO-->
-    <nav>
+    <nav class="menu"> 
         <ul>
             <li><img id="logo" src="https://i.imgur.com/S4bsuPb.png"></li>
-            <li><a href="">Sobre a Generation</a></li>
-            <li><a href="">Sobre o Curso</a></li>
-            <li><a href="">Curriculo do Curso</a></li>
-            <li><a href="">Mercado de Trabalho</a></li>
-            <li><a href="">Inscreva-se</a></li>
+            <li><a href="#section-sobre">Sobre a Generation</a></li>
+            <li><a href="#section-curso">Sobre o Curso</a></li>
+            <li><a href="#section-curriculo">Curriculo do Curso</a></li>
+            <li><a href="#section-mercado">Mercado de Trabalho</a></li>
+            <li><a href="#section-form">Inscreva-se</a></li>
         </ul>
     </nav>
 
 
     <!--SEÇÃO SOBRE A GENERATION-->
     <section id="section-sobre">
-        <h2>Sobre a Generation</h2>
+        <h2>SOBRE A GENERATION</h2>
         <div id="container-sobre">
 
             <div id="texto-sobre">
@@ -54,7 +54,7 @@
 
     <!--SEÇÃO SOBRE O CURSO-->
     <section id="section-curso">
-        <h2>Sobre o curso</h2>
+        <h2>SOBRE O CURSO</h2>
         <div id="container-curso">
             <div id="imagem-curso">
                 <img id="logoCurso"
@@ -90,11 +90,120 @@
         </div>
     </section>
 
+    <!--SEÇÃO SOBRE O CURRICULO CURSO-->
+
+    <section id="section-curriculo">
+        <h2>CURRÍCULO DO CURSO</h2>
+        <div id="container-curriculo">
+            <div class="blocos" id=blocoUm>
+                <ul>
+                    <li>
+                        <h3>Iniciando o projeto</h3>
+                    </li>
+                    <li>Preparando ambiente</li>
+                    <li>Criando o projeto</li>
+                    <li>Entendendo o ambiente de desenvolvimento</li>
+                </ul>
+            </div>
+            <div class="blocos" id=blocoDois>
+                <ul>
+                    <li>
+                        <h3>Trabalhando com Listas</h3>
+                    </li>
+                    <li>Exibindo imagens</li>
+                    <li>Criando estilos</li>
+                    <li>Usando FlatList</li>
+                </ul>
+            </div>
+            <div class="blocos" id=blocoTres>
+                <ul>
+                    <li>
+                        <h3>Componentes Customizados</h3>
+                    </li>
+                    <li>Criando componentes customizados</li>
+                    <li>Multiplos estilos</li>
+                    <li>Organiznado o projeto</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="section-mercado">
+        <h2>MERCADO DE TRABALHO</h2>
+        <div id="container-mercado">
+            <div id="texto-mercado">
+                <p>
+                    Há dois ótimos indicadores na hora de buscar uma nova ferramenta para aprender: quais são as
+                    empresas que a utilizam e quantas pessoas estão atualmente envolvidas com ela. O primeiro indicador
+                    representa o mercado de trabalho e o segundo, a comunidade ativa. Quanto mais companhias usam uma
+                    tecnologia, maior é seu mercado de trabalho. E no caso do React, o mercado está aquecido: grandes
+                    empresas que utilizam essa biblioteca incluem Facebook, Instagram, Netflix, PayPal, Airbnb, Amazon
+                    Videos, eBay e Asana. Pesquisas recentes comprovam uma alta geral em ofertas. De acordo com o último
+                    relatório “Fast 50”, do portal Freelancer.com, React está entre as habilidades que mais cresceram na
+                    plataforma: o número de oportunidades aumentou em 15,5% nos últimos três meses de 2017. Como uma
+                    coisa puxa a outra, a quantidade de pessoas interessadas e que trabalham com React e React Native
+                    também cresce. Também em 2017, a pesquisa anual do Stack Overflow, uma das principais comunidades
+                    online para desenvolvedores, trouxe dados interessantes sobre o tema: React apareceu como a quarta
+                    tecnologia em sua categoria mais utilizada por profissionais – e também a mais amada. Esses são
+                    fatores importantes. Quanto maior for a comunidade ativa, mais fácil será encontrar soluções para
+                    problemas em que o programador esbarra durante a criação de sua aplicação e maior será a quantidade
+                    disponível de de tutoriais, cursos, ferramentas e plugins.
+                </p>
+            </div>
+            <div id="imagem-mercado">
+                <img id="img-mercado" src="https://i.imgur.com/DsIdnMR.jpg">
+            </div>
+        </div>
+    </section>
+
+    <!--SEÇÃO DO FORMULÁRIO-->
+    <section id="section-form">
+        <h2>INSCREVA-SE</h2>
+        <div id="container-form">
+            <form id="form">
+                <div id="form-col" class="cols">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="txtNome" class="inputs">
+                </div>
+                <div id="form-col2" class="cols">
+                    <label for="email">Email:</label>
+                    <input type="email" id="txtEmail" class="inputs">
+                </div>
+                <div id="form-col3">
+                    <label for="data">Data de Nascimento:</label>
+                    <input type="date" id="txtDate" class="inputs">
+                    <label for="estado">UF:</label>
+                    <select id="estado" class="inputs">
+                        <option value="SP" id="sp">SP</option>
+                        <option value="RJ" id="rj">RJ</option>
+                        <option value="MG" id="mg">MG</option>
+                    </select>
+                </div>
+                <div id="form-col4" class="cols">
+                    <label for="mensagem">Como conheceu a generation:</label>
+                    <textarea cols="62" rows="4" id="mensagem" class="inputs"></textarea>
+                </div>
+                <div id="form-col5" class="cols">
+                    <button onclick="enviar()">Enviar</button>
+                </div>
+            </form>
+
+        </div>
+    </section>
 
 
-
-
-
+    <footer id="rodape">
+        <div id="container-footer">
+            <div id="icons-rodape">
+                <a href="https://www.instagram.com/generationbrasil/?hl=pt-br" target="_blank"><img  src="assets/img/instagram.png"></a>
+                <a href="https://www.facebook.com/generationbrasil/" target="_blank"><img src="assets/img/facebook.png"></a>
+                <a href="https://www.linkedin.com/school/generationbrasil/" target="_blank"><img src="assets/img/linkedin.png"></a>
+            </div>
+            <div id="texto-rodape">
+             direitos reservados para: 2020 Generation: You Employed, Inc
+            </div>
+        </div>
+    </footer>
     <script src="assets/js/script.js"></script>
 </body>
 

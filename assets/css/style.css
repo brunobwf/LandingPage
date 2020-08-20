@@ -128,3 +128,157 @@ p{
 #texto-curso p{
     color:white;
 }
+
+#section-curriculo h2{
+    margin-top:5%;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 25pt;
+    background-color: #db6247;
+    color: #ffffff;
+}
+
+#container-curriculo{
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    text-align: center;
+    align-items: center;
+}
+
+.blocos{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 25%;
+    height: 230px;
+    border:solid;
+    border-radius: 5%;
+    text-align: center;
+    background-color:#e2ddddee;
+
+}
+
+.blocos ul{
+    padding: 0;
+    margin-top:0%;
+    font-size: 14pt;
+    font-family: 'Raleway', sans-serif;
+}
+
+.blocos ul li{
+    margin-bottom: 5%;
+
+}
+
+.blocos ul h3{
+    margin-top:2% ;
+    font-family: 'Oswald', sans-serif;
+    color:black;
+    font-size:20pt;
+    border-bottom: solid;
+}
+
+#section-mercado h2{
+    margin-top:5%;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 25pt;
+}
+
+
+#container-mercado{
+    background-color: #0074b9;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+#img-mercado{
+    width: 95%;
+    height: 300px;
+    border-radius: 2%;
+}
+
+#texto-mercado{
+    color: #ffffff;
+    margin-left: 2.5%;
+    text-align: justify;
+    margin-right: 2%;
+}
+
+#section-form h2{
+    margin-top:5%;
+    margin-bottom: 0;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 30pt;
+}
+
+
+#container-form{
+    font-size: 18pt;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.cols{
+    margin-bottom: 2%;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+#form-col3{
+    margin-bottom: 2%;
+    text-align: center;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+textarea{
+    resize: none;
+}
+
+.inputs{
+    border:groove;
+    border-radius: 5%;
+    font-family: 'Raleway', sans-serif;
+}
+
+button{
+    font-size:13pt;
+    font-family: 'Raleway', sans-serif;
+    background-color: #db6247;
+    color: #ffffff;
+}
+
+#txtNome{
+    width: 100%;
+}
+
+#txtEmail{
+    width: 100%;
+}
+
+#rodape{
+    background-color:#d45f68;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    
+}
+
+#icons-rodape{
+    margin-top:2%;
+    text-align: center;
+}
+
+#texto-rodape{
+    font-size: 12pt;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
